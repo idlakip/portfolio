@@ -33,10 +33,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="/portfolio/index.php">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="about.php">About</a>
           <a class="nav-item nav-link" href="portfolio.php">Portfolio</a>
-          <a class="nav-item nav-link" href="company">Company</a>
+          <a class="nav-item nav-link" href="/portfolio/company.php">Company</a>
           <a class="nav-item nav-link disabled" href="contact.php" tabindex="-1" aria-disabled="true">Contact</a>
         </div>
       </div>

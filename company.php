@@ -5,13 +5,13 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
 
     <!-- my CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="materialize/css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../icon/favicon.ico">
+    <link rel="shortcut icon" href="icon/favicon.ico">
     <title>LAKIP</title>
 </head>
 
@@ -24,7 +24,7 @@
                     <a href="#home" class="brand-logo">LAKIP</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="/probootstrap">Home</a></li>
+                        <li><a href="/portfolio">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#clients">Clients</a></li>
                         <li><a href="#services">Services</a></li>
@@ -37,39 +37,39 @@
     </div>
     <!-- Sidenav -->
     <ul class="sidenav" id="mobile-nav">
-        <li><a href="">About Us</a></li>
-        <li><a href="">Clients</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
     </ul>
 
     <!-- Slider -->
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="../img/slider/1.png"> <!-- random image -->
+                <img src="img/slider/1.png"> <!-- random image -->
                 <div class="caption left-align">
                     <h3>Trending Searches</h3>
                     <h5 class="light grey-text text-lighten-3">Search Bussiness.</h5>
                 </div>
             </li>
             <li>
-                <img src="../img/slider/2.png"> <!-- random image -->
+                <img src="img/slider/2.png"> <!-- random image -->
                 <div class="caption center-align">
                     <h3>Mobile</h3>
                     <h5 class="light grey-text text-lighten-3">Contact Mobile.</h5>
                 </div>
             </li>
             <li>
-                <img src="../img/slider/3.png"> <!-- random image -->
+                <img src="img/slider/3.png"> <!-- random image -->
                 <div class="caption right-align">
                     <h3>Nature Pictures</h3>
                     <h5 class="light grey-text text-lighten-3">Free Nature.</h5>
                 </div>
             </li>
             <li>
-                <img src="../img/slider/4.png"> <!-- random image -->
+                <img src="img/slider/4.png"> <!-- random image -->
                 <div class="caption center-align">
                     <h3>Interview</h3>
                     <h5 class="light grey-text text-lighten-3">Company Profile.</h5>
@@ -107,20 +107,20 @@
 
     <!-- Clients -->
     <div id="clients" class="parallax-container scrollspy">
-        <div class="parallax"><img src="../img/slider/4.png"></div>
+        <div class="parallax"><img src="img/slider/4.png"></div>
 
         <!-- Our clients -->
         <div class="container clients">
             <h3 class="center light white-text">Our Clients</h3>
             <div class="row">
                 <div class="col m4 s12 center">
-                    <img src="../img/clients/gojek.png" alt="gojek">
+                    <img src="img/clients/gojek.png" alt="gojek">
                 </div>
                 <div class="col m4 s12 center">
-                    <img src="../img/clients/tokopedia.png" alt="tokopedia">
+                    <img src="img/clients/tokopedia.png" alt="tokopedia">
                 </div>
                 <div class="col m4 s12 center">
-                    <img src="../img/clients/traveloka.png" alt="traveloka">
+                    <img src="img/clients/traveloka.png" alt="traveloka">
                 </div>
             </div>
         </div>
@@ -207,30 +207,30 @@
             <h3 class="light center grey-text text-darken-3">Portfolio</h3>
             <div class="row">
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/1.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/1.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/2.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/2.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/3.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/3.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/4.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/4.png" alt="" class="responsive-img materialboxed">
                 </div>
             </div>
             <div class="row">
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/5.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/5.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/6.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/6.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/2.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/2.png" alt="" class="responsive-img materialboxed">
                 </div>
                 <div class="col m3 s12">
-                    <img src="../img/portfolio/3.png" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/3.png" alt="" class="responsive-img materialboxed">
                 </div>
             </div>
         </div>
@@ -283,31 +283,8 @@
         <p class="flow-text"> &copy; Copyright 2018 - <?php echo date('Y') ?> LAKIP.</p>
     </footer>
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/lakip.1.0.js"></script>
-    <!-- <script>
-        const sidenav = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(sidenav);
-
-        const slider = document.querySelectorAll('.slider');
-        M.Slider.init(slider, {
-            indicators: false,
-            height: 300, // default 400, Number
-            transition: 600, // duration/ default 500, Number
-            interval: 3000 // default 6000, Number
-        });
-
-        const parallax = document.querySelectorAll('.parallax');
-        M.Parallax.init(parallax);
-
-        const materialbox = document.querySelectorAll('.materialboxed');
-        M.Materialbox.init(materialbox);
-
-        const scroll = document.querySelectorAll('.scrollspy');
-        M.ScrollSpy.init(scroll, {
-            scrollOffset: 50
-        });
-    </script> -->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="materialize/js/lakip.1.0.js"></script>
 </body>
 
 </html>
